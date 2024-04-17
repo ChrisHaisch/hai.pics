@@ -117,8 +117,11 @@ footer {
   </div>
 </div>
 <script>
-    ScrollReveal().reveal('.column');
- 
+     ScrollReveal().reveal('.column', {
+                delay: 500,
+                useDelay: 'onload',
+                reset: true,
+            })v
   </script>
 <footer>
  <button class="btn active" onclick='window.location.href = "index.html"'>1</button>
